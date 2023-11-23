@@ -1,9 +1,11 @@
-import styles from "./styles.module.css";
-
+import Header from "../Header";
+import Styles from "./Home.module.scss";
+import classNames from "classnames/bind";
+const cx = classNames.bind(Styles);
 function Home() {
   return (
-    <div className={styles.wrap}>
-      <h1>HOME PAGE</h1>
+    <div className={cx('container')}>
+      <Header />
     </div>
   );
 }

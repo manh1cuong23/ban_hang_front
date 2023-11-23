@@ -1,0 +1,43 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+.header_navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_list_bar {
+    display: flex;
+}
+.header_item_bar {
+    list-style: none;
+    padding: 7px 5px 5px 7px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.header_item_bar:hover {
+    color: #E88B21;
+}
+.header_sign_btn button {
+    cursor: pointer;
+}
+
+.header_sign_btn button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:  none;
+    background-color: #01438b;
+    font-size: 15px;
+}
+
+.header_signup_btn:hover{
+    opacity: 0.92;
+    transition: all 0.2s linear;
+}
+
+
+
+.header_signup_btn {
+    color: white;
+}
